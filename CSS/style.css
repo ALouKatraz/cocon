@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Alex Brush);
+@import url(https://fonts.googleapis.com/css?family=Fjalla One);
+@import url(https://fonts.googleapis.com/css?family=Prata);
+
+/* ******************************Les variables********************************* */
+:root {
+    --titre-font: Fjalla One;
+    --paragraphe-font: Prata;
+    --bleuFonce: #004440;
+    --bleu: #1B7F7A;
+    --jaune: #F8B202;
+    --gris: #F2F2F2;
+    --primarytitreSize: 32px;
+    --secondarytitreSize: 26px;
+    --paragrapheSize: 16px;
+    --borderRadiusImage: 75px;
+    --borderRadiusCadre: 15px;
+} 
+/* **************************La base*************************** */
+h1, h2 {
+    font-family: var(--titre-font);
+    color: var(--bleuFonce);
+}
+
+h1 {
+    font-size: var(--primarytitreSize);
+}
+
+h2 {
+    font-size: var( --secondarytitreSize);
+}
+
+p {
+    font-family: var(--paragraphe-font);
+    font-size: var( --paragrapheSize);
+    color: var(--bleuFonce);
+
+}
+
+/* ******************************Notre équipe************************************* */
+
+#equipe {
+    height: 100vh
+    
+    max-width: 1200px;
+    margin: 10% 20%;
+
+}
+
+.ligne {
+    width: 10px;
+    height: 1px;
+    border: 1px solid red;
+}
