@@ -2,7 +2,7 @@
 
 h1, h2 {
     font-family: var(--titre-font);
-    color: var(--bleuFonce)
+    color: var(--bleuFonce);
 }
 
 h1 {
@@ -19,3 +19,4 @@ p {
     color: var(--bleuFonce);
 
 }
+
