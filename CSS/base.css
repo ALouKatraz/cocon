@@ -1,0 +1,15 @@
+@import url(./variables.css);
+
+h1, h2 {
+    font-family: var(--titre-font);
+    color: var(--bleuFonce)
+}
+
+h1 {
+   color: var(--bleuFonce);
+
+}
+
+p {
+    font-family: var(--paragraphe-font);
+}
