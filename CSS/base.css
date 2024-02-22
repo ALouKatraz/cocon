@@ -2,14 +2,20 @@
 
 h1, h2 {
     font-family: var(--titre-font);
-    color: var(--bleuFonce)
+    color: var(--bleuFonce);
 }
 
 h1 {
-   color: var(--bleuFonce);
+    font-size: var(--primarytitreSize);
+}
 
+h2 {
+    font-size: var( --secondarytitreSize);
 }
 
 p {
     font-family: var(--paragraphe-font);
+    font-size: var( --paragrapheSize);
+    color: var(--bleuFonce);
+
 }
