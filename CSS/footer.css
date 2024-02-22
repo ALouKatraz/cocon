@@ -3,11 +3,9 @@
 
 #Footer{
     border: red solid;
-    background-color: var(--bleu);
+    background-color: #1B7F7A;
     padding: 20px;
     color: #FFF;
-    text-decoration: none;
-    position: fixed; 
     bottom: 0; 
     width: 100%;
     display: flex;
@@ -18,6 +16,7 @@
 #Footer a{
     color: #FFF;
     text-decoration: none;
+    margin-right: 10px;
 }
 #Footer .container > div{
     width : 33%;
