@@ -1,0 +1,49 @@
+
+    /********** Footer******************/
+
+#Footer{
+    border: red solid;
+    background-color: var(--bleu);
+    padding: 20px;
+    color: #FFF;
+    text-decoration: none;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#Footer a{
+    color: #FFF;
+    text-decoration: none;
+}
+#Footer .container > div{
+    width : 33%;
+}
+
+#Footer .container  {
+    display: flex;
+    flex-direction: row;
+    width : 100%;
+}
+#Footer .menufooter h2{
+    text-align: center;
+}
+
+#Footer .logofooter{
+    text-align: right;
+}
+.container{
+    display: flex;
+    justify-content: center;
+   
+}
+.containerColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
