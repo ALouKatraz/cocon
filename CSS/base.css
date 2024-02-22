@@ -6,10 +6,15 @@ h1, h2 {
 }
 
 h1 {
-   color: var(--bleuFonce);
+    font-size: var(--primarytitreSize);
+}
 
+h2 {
+    font-size: var( --secondarytitreSize);
 }
 
 p {
     font-family: var(--paragraphe-font);
+    font-size: var( --paragrapheSize);
+    color: var(--bleuFonce);
 }
