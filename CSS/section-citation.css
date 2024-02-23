@@ -1,7 +1,6 @@
-#citation {
-    width: 100vw;
-    margin: 0;
-}
+/* #citation {
+    /* width: 100vw;
+    margin: 0;} */
 
 #citation .container {
     width: 100%;
@@ -10,12 +9,10 @@
 #ParagraphCitation {
     margin: 25px;
     color: var(--bleuFonce);
-    
 }
 
-#citation img {
-width: 100%;
-   
+.imageCitation{
+    margin-top: 20%;
 }
 
 #citation a {
