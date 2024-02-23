@@ -15,7 +15,9 @@
 }
 
 .containerCGU{
+    margin: auto;
     width: 80%;
+    border: solid var(--bleuFonce) 1px;
 }
 
 .titre{
@@ -33,16 +35,13 @@ h1{
     padding: 1% 2%;
 }
 
-
 p{
     color: black;
     line-height: 150%;
 }
 
-
 .paragraphe{
-    display: flex;
-    justify-content: center;
+    margin: auto;
     text-align: center;
     padding: 2%;
     width: 70%;
