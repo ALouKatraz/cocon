@@ -48,10 +48,11 @@ h1, h2{
 p{
     color: black;
     line-height: 150%;
+    text-align: center;
 }
 
 .containerContact{
-    width: 60%;
+    width: 70%;
     /* border: solid red; */
 }
 
@@ -61,8 +62,7 @@ p{
 }
 
 .paragraphe{
-    display: flex;
-    justify-content: center;
+    margin: auto;
     text-align: center;
     padding: 2%;
     width: 70%;
