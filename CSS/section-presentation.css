@@ -8,6 +8,9 @@
     align-items: center; 
     width : 100%;
 }
+.containerColumn{
+    
+}
 #presentation .container > div{
     width : 33%;
     height: auto;
