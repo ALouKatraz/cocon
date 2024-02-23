@@ -21,10 +21,6 @@
     width: 100%;
 }
 
-.imageCitation{
-    margin-top: 20%;
-}
-
 #citation a {
     color: var(--jaune);
 }
