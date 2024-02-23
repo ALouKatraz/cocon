@@ -1,9 +1,37 @@
-#presentation{
-    border: green solid;
-}
-#presentation
+@import url('./equipe.css');
+
+
 #presentation .container{
     display: flex;
     flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
     width : 100%;
 }
+#presentation .container > div{
+    width : 33%;
+    height: auto;
+   
+}
+#presentation h1{
+    margin-bottom: 10px;
+    font-family: var(--primary-font);
+    font-size: var(--primarytitreSize);
+
+}
+#presentation p{
+    line-height: 1.8;
+    font-family: var(--paragraphe-font);
+    font-size: var(--paragrapheSize);
+}
+.btn{
+    margin-top: 50px;
+    background-color: var(--jaune);
+    border-radius: var(--borderRadiusbtn);
+    border: none;
+    padding: 10px;
+    font-family: var( --titre-font);
+    font-size: var(--secondarytitreSize);
+    color: var(--bleuFonce);
+}
+
