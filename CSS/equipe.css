@@ -119,3 +119,9 @@ a {
   align-items: stretch;
   gap: 30px;
 }
+
+
+.text-align-center {
+  text-align:center;
+}
+
