@@ -24,6 +24,10 @@
     flex-direction: row;
 }
 
+.containerLieuxRow img {
+    width: 80%;
+}
+
 .titre{
     align-items: center;
     justify-content: center;
@@ -36,7 +40,7 @@
 }
 
 .photos{
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 h1, h2{
