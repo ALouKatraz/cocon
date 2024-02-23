@@ -61,10 +61,12 @@ ul {
 /* ******************************Notre équipe************************************* */
 
 #equipe {
-  height: 100vh;
+  /*height: 100vh;*/
   max-width: 1200px;
   margin: 0 auto;
 }
+
+
 
 .ligne {
   width: 340px;
@@ -110,6 +112,7 @@ a {
 #equipe .containerColumn {
   height: auto;
   border: 0;
+  width: 310px !important;
 }
 
 #equipe .containerRow {

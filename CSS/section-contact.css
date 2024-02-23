@@ -76,6 +76,15 @@ p{
     margin-top: 2%;
 }
 
+#contact .contact {
+    align-items: stretch;
+}
+
+#contact .adresse {
+    display: grid;
+    place-content: center;
+}
+
 .adresse{
     border: solid #AC1E64;
     border-radius: 15px;
@@ -99,4 +108,8 @@ p{
 
 .icone{
     height: 30px;
+}
+
+.td-adress {
+    padding-left: 15px
 }

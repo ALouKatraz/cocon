@@ -1,6 +1,8 @@
 @import url('./equipe.css');
 
-
+#presentation{
+    background-color: white;
+}
 #presentation .container{
     display: flex;
     flex-direction: row;
@@ -9,8 +11,11 @@
     width : 100%;
 }
 .containerColumn{
+    width: 100%;
     
 }
+
+
 #presentation .container > div{
     width : 33%;
     height: auto;
