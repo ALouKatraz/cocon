@@ -36,3 +36,18 @@ nav ul li a {
 nav ul li a:hover {
     border-bottom: 2px solid #1B7F7A;
 }
+
+
+#header .menu-toggle {
+    display: none; 
+    cursor: pointer;
+    padding: 20px;
+}
+
+#header .menu-toggle .bar {
+    display: block;
+    width: 25px;
+    height: 5px;
+    margin: 5px auto;
+    background-color:  #5D3222;
+}
