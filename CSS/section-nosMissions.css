@@ -26,8 +26,7 @@
 h1 {
     color: #004440;
     
-    
-}
+    }
 
 .titreH2 {
     display: flex;
@@ -48,15 +47,6 @@ p {
     
 }
 
-button {
-        background-color: #F8B202;
-        color:#004440 ;
-        border-radius: 10px;
-        border: none;
-       margin-left: 40%;
-        
-}
-
-.bouton {
-    display: flex;
+#imgMissions {
+    width: 60%;
 }
