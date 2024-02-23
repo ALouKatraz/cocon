@@ -1,0 +1,62 @@
+#lieux, #contact{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#contact{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: solid blue; */
+}
+
+.containerLieux{
+    width: 80%;
+}
+
+.containerLieuxRow{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.titre{
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 3%; */
+}
+
+.photos{
+    justify-content: space-around;
+}
+
+h1, h2{
+    text-align: center;
+    padding: 1% 4%;
+}
+
+
+p{
+    color: black;
+    line-height: 150%;
+}
+
+.containerContact{
+    width: 60%;
+    /* border: solid red; */
+}
+
+.cocon{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.paragraphe{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+    width: 70%;
+}
+
