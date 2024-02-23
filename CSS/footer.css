@@ -2,16 +2,10 @@
     /********** Footer******************/
 
 #Footer{
-    border: red solid;
     background-color: #1B7F7A;
     padding: 20px;
     color: #FFF;
-    bottom: 0; 
-    width: 100%;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    
+    bottom: 0;     
 }
 
 #Footer a{
@@ -20,7 +14,7 @@
     margin-right: 10px;
 }
 #Footer .container > div{
-    width : 40%;
+    width : 45%;
     height: auto;
 }
 #Footer .containerColumn{
@@ -31,7 +25,8 @@
 #Footer .container  {
     display: flex;
     flex-direction: row;
-    width : 100%;
+    min-width: 100%;
+    justify-content: space-between;
 }
 #Footer .menufooter h2{
     text-align: center;
