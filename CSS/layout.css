@@ -22,7 +22,7 @@
     width: 25%;
     padding : 20px;
     text-align: center;
-    border: 1px solid red;
+   
     margin: 20px;
     width: 310px;
     height: 555px;
@@ -36,7 +36,7 @@
 
 
 .containerContent{
-    border: 1px solid red;
+    
 }
 @media screen and (max-width: 480px) {
     .container {
