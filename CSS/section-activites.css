@@ -1,6 +1,17 @@
-@import url('./section-equipe.css');
+@import url('./equipe.css');
 
-.ligne {
+.activity img {
+    margin-bottom: 20px;
+}
+
+.activity h2{
+    margin-bottom: 20px;
+}
+
+.activit .containerContent #livre {
+    color: var(#004440);
+}
+/* .ligne {
     width: 40%;
     height: 0%;
     border: 1px solid black;
@@ -44,4 +55,5 @@ p{
 
 #borderLecture {
     border: #AC1E64 solid;
-}
+} */
+
