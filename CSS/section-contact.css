@@ -73,6 +73,7 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 2%;
 }
 
 .adresse{
@@ -80,6 +81,7 @@ p{
     border-radius: 15px;
     width: 40%;
     padding: 20px;
+    box-shadow: 10px 5px 5px #AC1E64;
 }
 
 .horaires{
@@ -87,6 +89,7 @@ p{
     border-radius: 15px;
     width: 40%;
     padding: 20px;
+    box-shadow: 10px 5px 5px #F8B202;
 }
 
 /* .horaires>h2>p{
