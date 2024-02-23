@@ -1,6 +1,10 @@
-const tableau = ["./Img/CuisineActivity.jpg", "./Img/slider2.jpg", "./Img/CuisineActivite.jpg"];
-precedent = document.getElementById("precedent");
-suivant = document.getElementById("suivant");
+const tableau = [
+  "../Img/img/CuisineActivity.jpg",
+  "./Img/slider2.jpg",
+  "./Img/CuisineActivite.jpg",
+];
+const precedent = document.getElementById("precedent");
+const suivant = document.getElementById("suivant");
 
 let indice = 0;
 // au clique on passe à l'image suivante
@@ -24,5 +28,5 @@ function fonction1() {
 }
 
 // La fonction setInterval pour defiler
-setInterval("fonction2()", 1500);// 1500 c'est en ms
+setInterval("fonction2()", 1500); // 1500 c'est en ms
 // ou on peut remplacer la fonction2 par fonction1

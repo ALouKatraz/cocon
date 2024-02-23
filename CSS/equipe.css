@@ -1,100 +1,118 @@
-@import url('https://fonts.googleapis.com/css?family=Alex Brush');
-@import url('https://fonts.googleapis.com/css?family=Fjalla One');
-@import url('https://fonts.googleapis.com/css?family=Prata');
+@import url("https://fonts.googleapis.com/css?family=Alex Brush");
+@import url("https://fonts.googleapis.com/css?family=Fjalla One");
+@import url("https://fonts.googleapis.com/css?family=Prata");
 
 /* ******************************Les variables********************************* */
 :root {
-    --primary-font: Alex Brush;
-    --titre-font: Fjalla One;
-    --paragraphe-font: Prata;
-    --rose: #AC1E64;
-    --roseOpacity: 40%;
-    --bleuFonce: #004440;
-    --bleu: #1B7F7A;
-    --bleuOpacity: 60%;
-    --jaune: #F8B202;
-    --jauneOpacity: 60%;
-    --gris: #F2F2F2;
-    --primarytitreSize: 32px;
-    --secondarytitreSize: 26px;
-    --paragrapheSize: 16px;
-    --borderRadiusImage: 75px;
-    --borderRadiusCadre: 15px;
-    --borderRadiusbtn: 12px;
-
-} 
+  --primary-font: Alex Brush;
+  --titre-font: Fjalla One;
+  --paragraphe-font: Prata;
+  --rose: #ac1e64;
+  --roseOpacity: 40%;
+  --bleuFonce: #004440;
+  --bleu: #1b7f7a;
+  --bleuOpacity: 60%;
+  --jaune: #f8b202;
+  --jauneOpacity: 60%;
+  --gris: #f2f2f2;
+  --primarytitreSize: 32px;
+  --secondarytitreSize: 26px;
+  --paragrapheSize: 16px;
+  --borderRadiusImage: 75px;
+  --borderRadiusCadre: 15px;
+  --borderRadiusbtn: 12px;
+}
 /* **************************La base*************************** */
-h1, h2 {
-    font-family: var(--titre-font);
-    color: var(--bleuFonce);
+h1,
+h2 {
+  font-family: var(--titre-font);
+  color: var(--bleuFonce);
 }
 
 h1 {
-    font-size: var(--primarytitreSize);
+  font-size: var(--primarytitreSize);
 }
 
 h2 {
-    font-size: var( --secondarytitreSize);
+  font-size: var(--secondarytitreSize);
 }
 
 p {
-    font-family: var(--paragraphe-font);
-    font-size: var( --paragrapheSize);
-    color: var(--bleuFonce);
-
+  font-family: var(--paragraphe-font);
+  font-size: var(--paragrapheSize);
+  color: var(--bleuFonce);
 }
 
 body {
-    background-color: var(--gris);
+  background-color: var(--gris);
 }
 
 section {
-    padding: 20px;
+  padding: 20px;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 /* ******************************Notre équipe************************************* */
 
 #equipe {
-    height: 100vh;
-    max-width: 1200px;
-    margin: 0 auto;
-
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-#equipe .ligne {
-    width:340px;
-    border-top: var(--gris);
-    border-right: var(--gris);
-    border-left: var(--gris);
-    border: 1px solid var(--bleuFonce);
-    background-color: var(--bleuFonce);
-    margin: 20px;
-
-    
+.ligne {
+  width: 340px;
+  border-top: var(--gris);
+  border-right: var(--gris);
+  border-left: var(--gris);
+  height: 0.001px;
+  border: 1px solid var(--bleuFonce);
+  background-color: var(--bleuFonce);
+  margin: 20px;
 }
 
 a {
-    color: var(--bleuFonce);
-    text-decoration: none;
-    width: 27px;
-    height: 40px;
+  color: var(--bleuFonce);
+  text-decoration: none;
+  width: 27px;
+  height: 40px;
 }
-
 
 .btn {
-    background-color: var(--jaune);
-    border-radius: var(--borderRadiusbtn);
-    border: none;
-    padding: 10px;
+  background-color: var(--jaune);
+  border-radius: var(--borderRadiusbtn);
+  border: none;
+  padding: 10px;
 }
 
+#equipe .containerContent {
+  border: none;
+}
 
+#equipe .containerContent:nth-of-type(1) {
+  background-color: rgba(248, 178, 4, 0.6);
+}
 
+#equipe .containerContent:nth-of-type(2) {
+  background-color: rgba(27, 127, 122, 0.6);
+}
 
+#equipe .containerContent:nth-of-type(3) {
+  background-color: rgba(172, 30, 100, 0.4);
+}
+
+#equipe .containerColumn {
+  height: auto;
+  border: 0;
+}
+
+#equipe .containerRow {
+  align-items: stretch;
+  gap: 30px;
+}

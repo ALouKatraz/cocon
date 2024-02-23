@@ -13,6 +13,11 @@
     text-decoration: none;
     margin-right: 10px;
 }
+#Footer h2{
+    color: #FFF;
+    margin-bottom: 15px;
+
+}
 #Footer .container > div{
     width : 45%;
     height: auto;
