@@ -1,4 +1,4 @@
-const tableau = ["../Img/img/CuisineActivity.jpg", "./Img/slider2.jpg", "./Img/CuisineActivite.jpg"];
+const tableau = ["./Img/CuisineActivity.jpg", "./Img/slider2.jpg", "./Img/CuisineActivite.jpg"];
 precedent = document.getElementById("precedent");
 suivant = document.getElementById("suivant");
 

@@ -68,12 +68,11 @@ ul {
 
 }
 
-.ligne {
+#equipe .ligne {
     width:340px;
     border-top: var(--gris);
     border-right: var(--gris);
     border-left: var(--gris);
-    height: 0.001px;
     border: 1px solid var(--bleuFonce);
     background-color: var(--bleuFonce);
     margin: 20px;
