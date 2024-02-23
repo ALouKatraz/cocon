@@ -24,17 +24,22 @@
        <!--link rel="stylesheet" href="main.css"-->
      <link rel="stylesheet" href="./CSS/main.css">
 
-     <link rel="stylesheet" href="../CSS/section-presentation.css">
+     <link rel="stylesheet" href="./CSS/section-presentation.css">
 
-     <link rel="stylesheet" href="../CSS/section-lieux.css">
+     <link rel="stylesheet" href="./CSS/section-slider.css">
+
+     <link rel="stylesheet" href="./CSS/section-lieux.css">
 
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
-    <script>
+     
+     <script src="JS/slider.js"></script>
+   
+   <script>
         $(document).ready(function() {
             $("#content").load('header.html');
             $("#content").load('section-presentation.html');
             $("#content").load('section-Lieux.html');
+            $("#content").load('section-slider.html');
         });
     </script>
 
@@ -42,9 +47,6 @@
 </head>
 <body>
     <main>
-        <div id="content">
-        </div>
-
         <!-- Section header -->
         <header id="header" class="containerRow">
             <div>
@@ -65,6 +67,9 @@
                 </div>
             </nav>
         </header>
+
+        <div id="content">
+        </div>
 
             <!-- Section présentation -->
             <section id="presentation">
@@ -160,5 +165,6 @@
                 </div>
             </section>
         </main>
+        
     </body>
 </html>
