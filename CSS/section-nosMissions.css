@@ -1,0 +1,62 @@
+@import url('./section-equipe.css');
+
+.ligne{
+    width: 40%;
+    height: 0%;
+    border: 1px solid black;
+    margin-top: 2px;
+}
+
+#background {
+    background-color:  #1B7F7A;
+    display: flex;
+}
+
+.containerNosMissionsRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+h1 {
+    color: #004440;
+    
+    
+}
+
+.titreH2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 2Opx;
+    color: #00FFF2;
+    
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    
+    
+}
+
+button {
+        background-color: #F8B202;
+        color:#004440 ;
+        border-radius: 10px;
+        border: none;
+       margin-left: 40%;
+        
+}
+
+.bouton {
+    display: flex;
+}
