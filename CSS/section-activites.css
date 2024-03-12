@@ -28,7 +28,29 @@
 .activity .containerRow {
     margin-bottom: 50px;
 }
+/**************************************************** */
 
+@media screen and (max-width: 700px) {
+    .activity .containerRow:nth-of-type(2)
+{
+    display: flex;
+    flex-direction: column;
+    }
+  
+    .activity .containerColumn {
+        width: 80%;
+    }
+
+    .activity .containerContent {
+        width: 90%;
+    }
+
+    .activity img {
+        margin-bottom: 20px;
+        width: 60%;
+    }
+  }
+/* ******************************************** */
 
 @media screen and (max-width: 480px) {
     .activity .containerRow:nth-of-type(2)

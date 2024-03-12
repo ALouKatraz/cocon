@@ -66,7 +66,10 @@ ul {
   margin: 0 auto;
 }
 
-
+#equipe img{
+  /*height: 100vh;*/
+  max-width: 100%;
+}
 
 .ligne {
   width: 340px;
@@ -97,6 +100,10 @@ a {
   border: none;
 }
 
+#equipe .containerContent {
+  border: none;
+}
+
 #equipe .containerContent:nth-of-type(1) {
   background-color: rgba(248, 178, 4, 0.6);
 }
@@ -115,7 +122,7 @@ a {
   width: 310px !important;
 }
 
-#equipe .containerRow {
+#equipe .containerRow{
   align-items: stretch;
   gap: 30px;
 }

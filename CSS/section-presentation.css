@@ -69,6 +69,90 @@
     display: none;
 }
 /* ************************************************** */
+
+/* ****************mediA queries******************* */
+/* **********************media screen 700px********************* */
+@media screen and (max-width: 800px) {
+    #presentation .container{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       gap: 0px;
+   }
+   /* #presentation .container > div{
+       width : 50%;  
+    }  */
+    
+   #presentation img {
+       display: none; 
+      
+   }
+
+    #presentation .container>.containerColumn {
+       width : 50%;
+       
+   }
+
+   .btn{
+       margin-top: 5px;
+       font-size: 20px;
+   } 
+}
+/* ************************************************ */
+@media screen and (max-width: 750px) {
+    #presentation .container{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       gap: 0px;
+   }
+   #presentation .container > div{
+       width : 50%;  
+    } 
+    
+   #presentation img {
+       display: none; 
+      
+   }
+
+    #presentation .container>.containerColumn {
+       width : 100%;
+       
+   }
+
+   .btn{
+       margin-top: 5px;
+       font-size: 20px;
+   } 
+}
+/* **********************media screen 600px********************* */
+@media screen and (max-width: 600px) {
+     #presentation .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0px;
+    }
+    #presentation .container > div{
+        width : 50%;  
+     } 
+     
+    #presentation img {
+        display: none; 
+       
+    }
+
+     #presentation .container>.containerColumn {
+        width : 100%;
+        
+    }
+
+    .btn{
+        margin-top: 5px;
+        font-size: 20px;
+    } 
+}
+/* **********************media screen 480px************************** */
 @media screen and (max-width: 480px) {
     #presentation .container{
         display: flex;
@@ -80,13 +164,18 @@
         width : 50%;
         /* height: auto;   */
     }
-    /* #presentation img {
-        display: none;
-    } */
-
+    
+    #presentation img {
+        display: none; 
+       
+    }
     #presentation .container>.containerColumn {
-        width : 100%;
+       
         
     }
 
+    .btn{
+        margin-top: 5px;
+        font-size: 20px;
+    }
 }
