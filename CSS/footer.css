@@ -17,6 +17,7 @@
 #Footer h2{
     color: #FFF;
     margin-bottom: 15px;
+    font-size: 120%;
 
 }
 #Footer .container > div{
@@ -53,4 +54,5 @@
     justify-content: center;
 
 }
+
 

@@ -53,6 +53,7 @@ p{
 
 .containerContact{
     width: 70%;
+    justify-content: center;
     /* border: solid red; */
 }
 
@@ -64,8 +65,7 @@ p{
 .paragraphe{
     margin: auto;
     text-align: center;
-    padding: 2%;
-    width: 70%;
+    width: 100%;
 }
 /* ************** */
 .contact{
@@ -74,37 +74,43 @@ p{
     align-items: center;
     justify-content: space-evenly;
     margin-top: 2%;
+    /* width: 30%; */
 }
-
-#contact .contact {
-    align-items: stretch;
-}
-
-#contact .adresse {
-    display: grid;
-    place-content: center;
-}
-
 .adresse{
     border: solid #AC1E64;
     border-radius: 15px;
-    width: 40%;
-    padding: 20px;
+    width: 30%;
+    padding: 10px;
     box-shadow: 10px 5px 5px #AC1E64;
+    margin-bottom: 30px;
 }
 
 .horaires{
     border: solid #F8B202;
     border-radius: 15px;
-    width: 40%;
-    padding: 20px;
+    width: 30%;
+    padding: 10px;
     box-shadow: 10px 5px 5px #F8B202;
-}
+    margin-bottom: 30px;
+} 
 
-/* .horaires>h2>p{
-    display: flex;
-    justify-content: center;
-} */
+@media only screen and (max-width: 1000px) {
+    .contact{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .adresse, .horaires{
+        width: 100%;
+        margin-right: 2%;
+    }
+    
+  }
+
+#contact .contact {
+    align-items: stretch;
+}
 
 .icone{
     height: 30px;
