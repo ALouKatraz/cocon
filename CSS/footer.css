@@ -14,12 +14,21 @@
     text-decoration: none;
     margin-right: 10px;
 }
+
 #Footer h2{
     color: #FFF;
     margin-bottom: 15px;
-    font-size: 120%;
+    font-size: 140%;
 
 }
+
+@media only screen and (max-width: 1000px) {
+    #Footer h2{
+        font-size: 100%;
+    
+    }
+  }
+
 #Footer .container > div{
     width : 45%;
     height: auto;
