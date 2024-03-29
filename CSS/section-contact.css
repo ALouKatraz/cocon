@@ -8,7 +8,6 @@
 }
 
 #contact{
-    margin-right: 10%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -28,7 +27,6 @@
 .titre{
     align-items: center;
     justify-content: center;
-
     /* margin-bottom: 3%; */
 }
 
@@ -103,11 +101,6 @@ p{
     }
 }
 @media only screen and (max-width: 1000px) {
-
-    #contact{
-        padding: 0%;
-    }
-
     .adresse, .horaires{
         width: 100%;
         margin-right: 2%;
