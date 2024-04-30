@@ -145,30 +145,3 @@ a {
   align-items: stretch;
   gap: 30px;
 }
-
-@media only screen and (max-width: 1000px) {
-  #equipe .containerRowEquipe {
-     flex-wrap: wrap;
-  }
-}
-.text-align-center {
-  text-align:center;
-}
-
-.dot {
-  width: 330px;
-  height: 280px;
-  background-color: #bbb;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-#equipe img{
-  /*height: 100vh;*/
-  max-width: 70%;
-  border-radius: 50%;
-}
