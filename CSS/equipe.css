@@ -68,13 +68,6 @@ ul {
 
 
 
-.container {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
-}
-
 .ligne {
   width: 340px;
   border-top: var(--gris);
@@ -94,7 +87,6 @@ a {
 }
 
 .btn {
-  margin-top: 30px;
   background-color: var(--jaune);
   border-radius: var(--borderRadiusbtn);
   border: none;
@@ -102,46 +94,55 @@ a {
 }
 
 #equipe .containerContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   border: none;
-  box-sizing: border-box;
 }
 
-
-#equipe #prezEssya, #dotEssya {
+#equipe .containerContent:nth-of-type(1) {
   background-color: rgba(248, 178, 4, 0.6);
 }
 
-#prezEssya {
-  padding-bottom: 45px;
-}
-
-#prezMarie {
-  padding-bottom: 40px;
-}
-
-#equipe #prezFatma, #dotFatma {
+#equipe .containerContent:nth-of-type(2) {
   background-color: rgba(27, 127, 122, 0.6);
-} 
+}
 
-#equipe #prezMarie, #dotMarie {
+#equipe .containerContent:nth-of-type(3) {
   background-color: rgba(172, 30, 100, 0.4);
-} 
+}
 
 #equipe .containerColumn {
   height: auto;
   border: 0;
-  width: 290px !important;
-  margin: 0px;
+  width: 310px !important;
 }
 
-#equipe .containerRowEquipe {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+#equipe .containerRow {
   align-items: stretch;
   gap: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #equipe .containerRowEquipe {
+     flex-wrap: wrap;
+  }
+}
+.text-align-center {
+  text-align:center;
+}
+
+.dot {
+  width: 330px;
+  height: 280px;
+  background-color: #bbb;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#equipe img{
+  /*height: 100vh;*/
+  max-width: 70%;
+  border-radius: 50%;
 }
