@@ -49,8 +49,8 @@
     font-size: var(--secondarytitreSize);
     color: var(--bleuFonce);
 }
-
-/* ********pour afficher la suite du texte*************** */
+/* 
+/* ********pour afficher la suite du texte***************
 .lasuite {
     color: brown;
     font-variant: small-caps;
@@ -67,7 +67,7 @@
 
 .containerColumn:hover .lasuite {
     display: none;
-}
+} */
 /* ************************************************** */
 
 /* ****************mediA queries******************* */
@@ -79,9 +79,6 @@
        width: 100%;
        gap: 0px;
    }
-   /* #presentation .container > div{
-       width : 50%;  
-    }  */
     
    #presentation img {
        display: none; 
@@ -160,18 +157,13 @@
         width: 100%;
         gap: 0px;
     }
+
     #presentation .container > div{
         width : 50%;
-        /* height: auto;   */
     }
     
     #presentation img {
         display: none; 
-       
-    }
-    #presentation .container>.containerColumn {
-       
-        
     }
 
     .btn{

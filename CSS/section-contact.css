@@ -27,7 +27,7 @@
 .titre{
     align-items: center;
     justify-content: center;
-    /* margin-bottom: 3%; */
+
 }
 
 .ligne {
@@ -54,7 +54,7 @@ p{
 .containerContact{
     width: 70%;
     justify-content: center;
-    /* border: solid red; */
+
 }
 
 .cocon{
@@ -67,15 +67,15 @@ p{
     text-align: center;
     width: 100%;
 }
-/* ************** */
+
 .contact{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 2%;
-    /* width: 30%; */
 }
+
 .adresse{
     border: solid #AC1E64;
     border-radius: 15px;
@@ -92,21 +92,7 @@ p{
     padding: 10px;
     box-shadow: 10px 5px 5px #F8B202;
     margin-bottom: 30px;
-} 
-
-@media only screen and (max-width: 1000px) {
-    .contact{
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
 }
-@media only screen and (max-width: 1000px) {
-    .adresse, .horaires{
-        width: 100%;
-        margin-right: 2%;
-    }
-    
-  }
 
 #contact .contact {
     align-items: stretch;
@@ -116,6 +102,29 @@ p{
     height: 30px;
 }
 
-.td-adress {
-    padding-left: 15px
+table {
+    font-family: var(--paragraphe-font);
+    font-size: var(--paragrapheSize);
+    color: var(--bleuFonce);
+    line-height: 150%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
+
+.td{
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .adresse, .horaires{
+        width: 100%;
+        margin-right: 2%;
+    }
+    
+  }
