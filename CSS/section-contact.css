@@ -28,6 +28,7 @@
     align-items: center;
     justify-content: center;
 
+
 }
 
 .ligne {
@@ -55,6 +56,7 @@ p{
     width: 70%;
     justify-content: center;
 
+
 }
 
 .cocon{
@@ -68,6 +70,7 @@ p{
     width: 100%;
 }
 
+
 .contact{
     display: flex;
     flex-direction: row;
@@ -75,6 +78,7 @@ p{
     justify-content: space-evenly;
     margin-top: 2%;
 }
+
 
 .adresse{
     border: solid #AC1E64;
