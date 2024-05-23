@@ -68,7 +68,15 @@ ul {
 
 
 
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
 .ligne {
+<<<<<<< Updated upstream
   width: 340px;
   border-top: var(--gris);
   border-right: var(--gris);
@@ -77,6 +85,16 @@ ul {
   border: 1px solid var(--bleuFonce);
   background-color: var(--bleuFonce);
   margin: 20px;
+=======
+    width:340px;
+    border-top: var(--gris);
+    border-right: var(--gris);
+    border-left: var(--gris);
+    height: 0.001px;
+    border: 1px solid var(--bleuFonce);
+    background-color: var(--bleuFonce);
+    margin: 20px;
+>>>>>>> Stashed changes
 }
 
 a {
@@ -87,6 +105,7 @@ a {
 }
 
 .btn {
+  margin-top: 20px;
   background-color: var(--jaune);
   border-radius: var(--borderRadiusbtn);
   border: none;
@@ -94,28 +113,46 @@ a {
 }
 
 #equipe .containerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: none;
+  box-sizing: border-box;
 }
 
-#equipe .containerContent:nth-of-type(1) {
+
+#equipe #prezEssya, #dotEssya {
   background-color: rgba(248, 178, 4, 0.6);
 }
 
-#equipe .containerContent:nth-of-type(2) {
-  background-color: rgba(27, 127, 122, 0.6);
+#prezEssya {
+  padding-bottom: 45px;
 }
 
-#equipe .containerContent:nth-of-type(3) {
-  background-color: rgba(172, 30, 100, 0.4);
+#prezMarie {
+  padding-bottom: 40px;
 }
+
+#equipe #prezFatma, #dotFatma {
+  background-color: rgba(27, 127, 122, 0.6);
+} 
+
+#equipe #prezMarie, #dotMarie {
+  background-color: rgba(172, 30, 100, 0.4);
+} 
 
 #equipe .containerColumn {
   height: auto;
   border: 0;
-  width: 310px !important;
+  width: 290px !important;
+  margin: 0px;
 }
 
-#equipe .containerRow {
+#equipe .containerRowEquipe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: stretch;
   gap: 30px;
 }

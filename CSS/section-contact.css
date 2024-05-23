@@ -27,7 +27,7 @@
 .titre{
     align-items: center;
     justify-content: center;
-    /* margin-bottom: 3%; */
+
 }
 
 .ligne {
@@ -53,7 +53,8 @@ p{
 
 .containerContact{
     width: 70%;
-    /* border: solid red; */
+    justify-content: center;
+
 }
 
 .cocon{
@@ -64,10 +65,9 @@ p{
 .paragraphe{
     margin: auto;
     text-align: center;
-    padding: 2%;
-    width: 70%;
+    width: 100%;
 }
-/* ************** */
+
 .contact{
     display: flex;
     flex-direction: row;
@@ -76,40 +76,63 @@ p{
     margin-top: 2%;
 }
 
-#contact .contact {
-    align-items: stretch;
-}
-
-#contact .adresse {
-    display: grid;
-    place-content: center;
-}
-
 .adresse{
     border: solid #AC1E64;
     border-radius: 15px;
-    width: 40%;
-    padding: 20px;
+    width: 30%;
+    padding: 10px;
     box-shadow: 10px 5px 5px #AC1E64;
+    margin-bottom: 30px;
 }
 
 .horaires{
     border: solid #F8B202;
     border-radius: 15px;
-    width: 40%;
-    padding: 20px;
+    width: 30%;
+    padding: 10px;
     box-shadow: 10px 5px 5px #F8B202;
+    margin-bottom: 30px;
 }
 
-/* .horaires>h2>p{
-    display: flex;
-    justify-content: center;
-} */
+  @media only screen and (max-width: 300px) {
+
+    .titre h1 {
+        font-size: 80%;
+    }
+
+  }
+
+#contact .contact {
+    align-items: stretch;
+}
 
 .icone{
     height: 30px;
 }
 
-.td-adress {
-    padding-left: 15px
+table {
+    font-family: var(--paragraphe-font);
+    font-size: var(--paragrapheSize);
+    color: var(--bleuFonce);
+    line-height: 150%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
+
+.td{
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .adresse, .horaires{
+        width: 100%;
+        margin-right: 2%;
+    }
+    
+  }
