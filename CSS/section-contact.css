@@ -94,6 +94,14 @@ p{
     margin-bottom: 30px;
 }
 
+  @media only screen and (max-width: 300px) {
+
+    .titre h1 {
+        font-size: 80%;
+    }
+
+  }
+
 #contact .contact {
     align-items: stretch;
 }
